@@ -65,12 +65,10 @@ body{
 
 .hero-btn{
     font-family: inherit;
-    position: sticky;
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
+    color: var(--contrast-color);
+    background-color: var(--accent-color);
 }
+
 
 /* ------- QUALITIES--------- */
 
@@ -92,7 +90,6 @@ body{
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--header-color);
 }
 
 .qualities-list-paragraph{
@@ -110,7 +107,6 @@ body{
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--header-color);
 }
 
 
@@ -122,7 +118,6 @@ body{
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--header-color);
 }
 
 .team-list-header{
@@ -131,7 +126,6 @@ font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--header-color);
 }
 
 .team-list-paragraph{
@@ -160,6 +154,11 @@ color: var(--header-color);
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: var(--accent-color);
 }
 
 .footer-logo {
@@ -180,12 +179,34 @@ color: var(--header-color);
 
 /* --------------- CHOICE FILTER------------------ */
 
-.filter-list-item{
+.filter-list-item, .product-list-item{
     list-style-type: none;
 }
 
 .filter-list-btn{
     font-family: inherit;
+    background-color: #F5F4FA;
 }
 
+.filter-list-btn:hover {
+    font-family: inherit;
+    background-color: var(--accent-color);
+    color: var(--contrast-color);
+}
+
+/* --------------- PRODUCT------------------ */
+
+.product-list-header{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.product-list-paragraph{
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--paragraph-color);
+}
 
